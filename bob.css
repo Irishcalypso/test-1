@@ -1,0 +1,32 @@
+body {
+font-family: Georgia, serif;
+}
+ul {
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: black;
+   }
+ul li {
+list-style-type: none;
+display: inline;
+margin-right: 0.5em;
+margin-left: 0.5em;
+}
+ul li a:hover {
+color: #99DDFF;
+text-decoration: underline;
+}
+ul li.selected {
+color: yellow;
+}
+.button {
+border: 10px ridge crimson;
+text-align: center;
+font-size: 7px;
+cursor: url('/images/1.png'),
+move;
+}
+.button { background-color: red;}
+      
